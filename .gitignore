@@ -1,35 +1,17 @@
-# Python
+# caches / temps / outputs
 __pycache__/
-*.py[cod]
-*.egg-info/
+cache/
+logs/
+logs_stage2/
+output/
+stage2_output/
 
-# Notebooks
+# big datasets & intermediates
+pNEUMA_dataset/
+processed_json/
+
+# notebook autosaves
 .ipynb_checkpoints/
 
-# Envs & IDE
-.venv/
-env/
+# misc
 .DS_Store
-.vscode/
-
-# Big data & binaries (keep these OUT of GitHub)
-data/
-outputs/
-logs/
-checkpoints/
-*.csv
-*.parquet
-*.h5
-*.npz
-*.pkl
-*.pt
-*.sqlite
-*.gpkg
-*.zip
-*.tar
-*.tar.gz
-*.png
-*.jpg
-*.tif
-*.ang
-*.sang
